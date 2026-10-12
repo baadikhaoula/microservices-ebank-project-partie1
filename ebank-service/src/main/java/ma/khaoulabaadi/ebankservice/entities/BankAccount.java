@@ -1,12 +1,13 @@
 package ma.khaoulabaadi.ebankservice.entities;
 
+import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Transient;
 import lombok.*;
 import ma.khaoulabaadi.ebankservice.model.Customer;
 
 import java.util.Date;
-
+@Entity
 @Getter
 @Setter
 @NoArgsConstructor
