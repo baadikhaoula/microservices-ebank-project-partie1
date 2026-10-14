@@ -1,5 +1,6 @@
 package ma.khaoulabaadi.ebankservice.feign;
 
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import ma.khaoulabaadi.ebankservice.model.Customer;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
